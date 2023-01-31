@@ -1,0 +1,5 @@
+to reset/initialise
+psql -d task_manager -f db/task_manager
+
+dropdb name_of_database
+createdb name_of_database
